@@ -1,0 +1,44 @@
+body{
+    padding-left: 10px;
+}
+input{
+    border: 2px solid purple;
+    outline: none;
+}
+.box{
+    width: 700px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h3, h6{
+    margin: 0px;
+}
+.media{
+    text-align: center;
+    background-color: rgb(227, 233, 226);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 500px;
+    height: 70px;
+}
+.content{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.control{
+    color: white;
+    background-color: purple;
+    border: 2px solid purple;
+}
+.reset{
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
